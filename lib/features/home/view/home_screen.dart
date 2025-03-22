@@ -42,15 +42,25 @@ class HomeScreen extends StatelessWidget {
                   ),
                   value: provider.locale, // Selected language
                   items: const [
+                    /// tamil
+                    DropdownMenuItem(value: Locale('ta'), child: Text("Tamil")),
+
+                    /// english
                     DropdownMenuItem(
                       value: Locale('en'),
                       child: Text("English"),
                     ),
+
+                    /// hindi
                     DropdownMenuItem(value: Locale('hi'), child: Text("Hindi")),
+
+                    /// french
                     DropdownMenuItem(
                       value: Locale('fr'),
                       child: Text("French"),
                     ),
+
+                    /// arabic
                     DropdownMenuItem(
                       value: Locale('ar'),
                       child: Text("Arabic"),

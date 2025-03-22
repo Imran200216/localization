@@ -33,6 +33,8 @@ class MyApp extends StatelessWidget {
             GlobalCupertinoLocalizations.delegate,
           ],
           supportedLocales: [
+            // tamil
+            Locale("ta"),
             // english
             Locale("en"),
             // hindi
